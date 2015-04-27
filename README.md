@@ -31,7 +31,7 @@ and start your server `php -S localhost:8000`<br>
 ##DATABASE
 ```sql
 CREATE DATABASE inventory;
- \c to_do
+ \c inventory;
 CREATE TABLE things (id serial PRIMARY KEY, name varchar, description varchar, keep bool);
 CREATE DATABASE inventory_test WITH TEMPLATE inventory;
 ```
